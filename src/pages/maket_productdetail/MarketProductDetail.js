@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../../component/Footer";
 import Header from "../../component/Header";
-import "../../assets/style/marketproductdetail.css"
+import "../../assets/style/marketproductdetail.css";
 import marketproductdetail1 from "../../assets/images/marketproductdetail1.png";
 import { Link } from "react-router-dom";
 import arrowright from "../../assets/images/arrowright.png";
@@ -30,7 +30,7 @@ const MarketProductDetail = () => {
                 <div className="picture_box">
                   <div className="product-single-image">
                     <figure>
-                      <img src={productdetail} className="img-fluid" />
+                      <img src={productdetail} className="img-fluid" alt="" />
                     </figure>
                   </div>
                   {/* <div className="product_images">
@@ -49,7 +49,7 @@ const MarketProductDetail = () => {
               <div className="col-md-6 align-self-center">
                 <div className="product_details_dv">
                   <div className="heading_top mt-5">
-                    <h3 >NITRIC SHOCK</h3>
+                    <h3>NITRIC SHOCK</h3>
                   </div>
                   <div className="description">
                     <p>
@@ -344,11 +344,14 @@ const MarketProductDetail = () => {
                         </div>
                         <div className="col"></div>
                       </div>
-                      <button type="submit" className="addtocarttxt">S U B M I T<img
-                        src={arrowright}
-                        alt=""
-                        className="img-fluid ml-2 curvedimg"
-                      /></button>
+                      <button type="submit" className="addtocarttxt">
+                        S U B M I T
+                        <img
+                          src={arrowright}
+                          alt=""
+                          className="img-fluid ml-2 curvedimg"
+                        />
+                      </button>
                     </form>
                   </div>
                 </div>

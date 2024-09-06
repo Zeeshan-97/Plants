@@ -32,7 +32,7 @@ const ProductDetail = () => {
                 <div className="picture_box">
                   <div className="product-single-image">
                     <figure>
-                      <img src={productdetail1} className="img-fluid" />
+                      <img src={productdetail1} className="img-fluid" alt="" />
                     </figure>
                   </div>
                   {/* <div className="product_images">

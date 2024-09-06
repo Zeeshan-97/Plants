@@ -35,7 +35,7 @@ const Faq = () => {
                 {/* universal top section end here */}
                 {/* faq page start here */}
                 <section className='h_bar'>
-                    <img className='img-fluid' src={line} />
+                    <img className='img-fluid' src={line} alt="" />
                 </section>
                 <section className='faq_sec'>
                     <div className='container'>

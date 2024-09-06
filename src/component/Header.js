@@ -16,26 +16,36 @@ const Header = () => {
                 <div className="logoDv">
                   <Link to="/">
                     <figure>
-                      <img width="180" src={logo} />
+                      <img width="180" src={logo} alt="" />
                     </figure>
                   </Link>
                 </div>
                 <div className="navbar_menus">
                   <ul className="menus">
                     <li className="menu-items">
-                      <NavLink exact activeClassName="active" to='/' >HOME</NavLink>
+                      <NavLink exact activeClassName="active" to="/">
+                        HOME
+                      </NavLink>
                     </li>
                     <li className="menu-items">
-                      <NavLink activeClassName="active" to='/shop' >SHOP</NavLink>
+                      <NavLink activeClassName="active" to="/shop">
+                        SHOP
+                      </NavLink>
                     </li>
                     <li className="menu-items">
-                      <NavLink activeClassName="active" to='/marketplace' >MARKETPLACE</NavLink>
+                      <NavLink activeClassName="active" to="/marketplace">
+                        MARKETPLACE
+                      </NavLink>
                     </li>
                     <li className="menu-items">
-                      <NavLink activeClassName="active" to='/wholesale' >WHOLESALE</NavLink>
+                      <NavLink activeClassName="active" to="/wholesale">
+                        WHOLESALE
+                      </NavLink>
                     </li>
                     <li className="menu-items">
-                      <NavLink activeClassName="active" to='/contact' >CONTACT</NavLink>
+                      <NavLink activeClassName="active" to="/contact">
+                        CONTACT
+                      </NavLink>
                     </li>
                     {/* <li className="menu-items">
                       <Link to="/">HOME</Link>
@@ -62,12 +72,10 @@ const Header = () => {
                   <div className="plystore">
                     <Link to="/login">
                       <figure>
-                        <img src={user_icon} className="img-fluid" />
+                        <img src={user_icon} className="img-fluid" alt="" />
                       </figure>
                       <p>
-
                         <small className="user">Sign In</small>
-
                         Account
                       </p>
                     </Link>
@@ -92,7 +100,12 @@ const Header = () => {
                         aria-hidden="true"
                       ></i>
                     </Link>
-                    <i className="fa fa-search mr-3" aria-hidden="true" data-toggle="modal" data-target="#search_modal"></i>
+                    <i
+                      className="fa fa-search mr-3"
+                      aria-hidden="true"
+                      data-toggle="modal"
+                      data-target="#search_modal"
+                    ></i>
                   </div>
                   <Link to="/sellerregister" className=" plant_btn">
                     BECOME A SELLER{" "}
@@ -105,9 +118,9 @@ const Header = () => {
               </div>
             </div>
           </div>
-        </div >
+        </div>
         <a id="backtotop"></a>
-      </header >
+      </header>
       <div className="mobile_header">
         <div className="cancel">
           <svg
@@ -165,24 +178,40 @@ const Header = () => {
         </ul>
       </div>
 
-      <div className="modal fade search_btn" id="search_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div
+        className="modal fade search_btn"
+        id="search_modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myLargeModalLabel"
+        aria-hidden="true"
+      >
         <div className="modal-dialog modal-lg">
           <div className="modal-content">
             <div class="modal-header">
               <h5 class="modal-title"></h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div className="input-group">
               <label to="gsearch">Search</label>
-              <input className="form-control" type="search" id="gsearch" name="gsearch" />
+              <input
+                className="form-control"
+                type="search"
+                id="gsearch"
+                name="gsearch"
+              />
             </div>
           </div>
         </div>
       </div>
-    </div >
-
+    </div>
   );
 };
 

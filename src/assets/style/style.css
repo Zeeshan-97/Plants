@@ -470,7 +470,7 @@ header#header-top .navbar_menus ul.menus li.menu-items a.active {
 header#header-top .right_content {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 header#header-top .right_content .download_from {
@@ -504,7 +504,7 @@ header#header-top .right_content .download_from .plystore p small {
 }
 
 header#header-top .right_content .download_from .plystore p .custom-select {
-  -webkit-user-select: none;
+  /* -webkit-user-select: none; */
   -webkit-appearance: none;
   appearance: none;
   background-color: transparent;
@@ -1159,7 +1159,7 @@ section.digestive_sec {
 }
 
 @media(max-width:1366px) {
-  .digestive_img_wrapper .leaf1 {}
+  /* .digestive_img_wrapper .leaf1 {} */
 
   .digestive_img_wrapper .leaf1 img {
     width: 120px;
@@ -1798,7 +1798,7 @@ button.addtocarttxt:hover {
   margin-right: 5px;
   background: linear-gradient(194deg, rgba(255, 194, 0, 1) 0%, rgba(255, 194, 0, 1) 52%, rgba(255, 187, 0, 1) 65%, rgba(255, 169, 0, 1) 89%, rgba(255, 162, 0, 1) 100%);
   margin-right: 5px;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
