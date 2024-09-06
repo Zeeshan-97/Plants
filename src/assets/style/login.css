@@ -1,0 +1,167 @@
+.login_page .heading_top:before {
+    content: "LOGIN";
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3A3F4A;
+    color: transparent;
+    font-size: 60px;
+    font-family: "worksans-b";
+    z-index: 0;
+    bottom: 4px;
+    left: 2px;
+}
+
+section.login_page .heading_top {
+    text-align: left;
+}
+
+section.login_page {
+    background: #111419;
+    padding: 7rem 0;
+    /* height: 100vh; */
+    padding-top: 10rem;
+}
+
+span.notamember {
+    color: #fff;
+    font-size: 14px;
+}
+
+span.register {
+    color: #aceb1e;
+    font-family: "montserret";
+    font-size: 14px;
+}
+
+p.welcome_para {
+    color: #fff;
+    font-size: 26px;
+    font-family: "worksans-l";
+    margin-bottom: 0;
+    margin-top: 3rem;
+    line-height: 1.2;
+}
+
+.rememberDv .form-group input#remember {
+    width: auto;
+}
+
+.rememberDv .form-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+section.login_page .plants_btn {
+    background-color: #ACEB1E;
+    border-radius: 0;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #000;
+    font-family: "montserret_b";
+    font-size: 14px;
+    font-weight: 500;
+    padding: 14px 40px;
+    text-decoration: none;
+    text-decoration: none !important;
+    transition: .6s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+section.login_page .plants_btn:hover {
+    color: #ACEB1E;
+    border: 1px solid #ACEB1E;
+    background: transparent;
+}
+
+.rememberDv .form-group label {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.rememberDv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.rememberDv .lnk a {
+    color: #aceb1e;
+    font-size: 14px;
+}
+
+.form-start .form-group input {
+    background: transparent;
+    border-radius: 0;
+    padding: 21px;
+    border: 1px solid;
+}
+
+section.login_page .form-start {
+    margin-top: 3rem;
+}
+
+span.plantshead {
+    color: #aceb1e;
+    font-family: "montserret";
+}
+
+/* custom check box start here*/
+.custom_checkbox {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.custom_checkbox input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.custom_checkbox label {
+    position: relative;
+    cursor: pointer;
+}
+
+.custom_checkbox label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #98A1BC;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.custom_checkbox input:checked+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    width: 6px;
+    height: 12px;
+    border: solid #ACEB1E;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* custom check box start here*/
+.login_img img {
+    transform: scale(1.2);
+    margin-left: 4rem;
+}

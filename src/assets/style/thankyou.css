@@ -1,0 +1,299 @@
+/* Second Column Css Start Here */
+.thankyou_page .heading_top:before {
+    content: "THANK YOU FOR SHOPPING";
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3A3F4A;
+    color: transparent;
+    font-size: 60px;
+    font-family: "worksans-b";
+    z-index: 0;
+    bottom: 41px;
+    left: 0;
+    right: 0;
+}
+
+.thankyou_page .heading_top {
+    position: relative;
+    text-align: center;
+}
+
+.thankyou_page .heading_top p {
+    font-size: 14px;
+    padding: 0 14rem;
+    margin-bottom: 3rem;
+}
+
+.thankyou_page .second-top-bar .form-group {
+    display: flex;
+    align-items: flex-start;
+}
+
+section.thankyou_page {
+    padding-top: 8rem;
+    background: linear-gradient(180deg, rgba(17, 20, 25, 1) 0%, rgba(18, 21, 26, 1) 100%);
+
+    padding-bottom: 2rem;
+
+}
+
+.thankyou_page .second-top-bar .form-group .form-control {
+    border-radius: 0;
+    border: 1px solid #b4b4b4;
+    padding: 16px 20px;
+    height: 53px;
+}
+
+.thankyou_page .second-top-bar .form-group .form-control::placeholder {
+    color: #2a263d;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.thankyou_page .second-top-bar .form-group button {
+    height: 53.6px;
+    width: 50%;
+    margin-left: 15px;
+    background: #1aac7a;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid #fff;
+    transition: 0.6s;
+}
+
+.thankyou_page .second-top-bar .form-group button:hover {
+    box-shadow: 0px 0px 0px 2px #1aac7a;
+}
+
+.thankyou_page .cart-product-detail {
+    border: 1px solid #545a6a;
+    padding: 50px 50px;
+    position: relative;
+    overflow: hidden;
+    background-color: #111419;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.thankyou_page .cart-product-detail .checkout-products {
+    height: 280px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 10px;
+    border-bottom: 2px solid #c5c5c5;
+}
+
+.thankyou_page .cart-product-detail .checkout-products::-webkit-scrollbar {
+    width: 3px;
+    background: transparent;
+}
+
+.thankyou_page .cart-product-detail .checkout-products::-webkit-scrollbar-thumb {
+    background: #ACEB1E;
+}
+
+.thankyou_page .cart-product-detail .products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #70707073;
+    padding: 18px 0;
+    position: relative;
+    gap: 50px;
+}
+
+.thankyou_page .cart-product-detail .br-right:before {
+    content: "";
+    background: #1aac7a;
+    width: 4px;
+    height: 60%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: -20px;
+}
+
+.thankyou_page .cart-product-detail .products .abt-product {
+    display: flex;
+    align-items: center;
+}
+
+.thankyou_page .cart-product-detail .products .abt-product .pro-dtl {
+    padding-left: 15px;
+}
+
+.thankyou_page .cart-product-detail .products .abt-product .pro-dtl h5.name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "montserret_m";
+    font-weight: 400;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+.thankyou_page .cart-product-detail .products .abt-product .pro-dtl ul.variations {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.thankyou_page .cart-product-detail .products .img-box figure {
+    margin-bottom: 0;
+}
+
+.thankyou_page .cart-product-detail .products .abt-product .pro-dtl ul.variations li {
+    border-right: 1px solid #1f2c3582;
+    padding: 0 7px;
+    font-weight: 700;
+    color: #000;
+}
+
+.thankyou_page .cart-product-detail .products .abt-product .pro-dtl ul.variations li:last-child {
+    border: 0;
+}
+
+.thankyou_page .cart-product-detail .products .abt-product .pro-dtl ul.variations li:first-child {
+    padding-left: 0;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.thankyou_page .cart-product-detail .products .product-price h4.price {
+    color: #ACEB1E;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "montserret_b";
+    margin-left: 24px;
+    display: inline-block;
+}
+
+.thankyou_page .cart-product-detail .pricing-details {
+    padding-top: 40px;
+}
+
+.thankyou_page .cart-product-detail .pricing-details .item-total h4.property {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    font-family: "montserret_r";
+}
+
+.thankyou_page .cart-product-detail .pricing-details .item-total h4.value {
+    font-size: 15px;
+    color: #fff;
+    /* font-weight: 400; */
+    font-family: "montserret_m";
+}
+
+.thankyou_page .cart-product-detail .pricing-details .item-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.thankyou_page .cart-product-detail .pricing-details {
+    border-bottom: 1px solid #c5c5c5;
+    padding-bottom: 30px;
+}
+
+.thankyou_page .cart-product-detail .order-total {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thankyou_page .cart-product-detail .order-total h3.property {
+    color: #ACEB1E;
+    font-weight: 500;
+    font-family: "montserrat";
+    font-size: 15px;
+}
+
+.thankyou_page .cart-product-detail .order-total h3.value {
+    font-weight: 400;
+    font-family: "montserret_b";
+    font-size: 16px;
+    color: #fff;
+}
+
+section.thankyou_page .thankyou_btn a.plant_btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+    border-radius: 0;
+    border: 1px solid #ACEB1E;
+    margin-top: 2rem;
+    font-family: "montserret_b";
+    font-size: 14px;
+}
+
+section.thankyou_page .thankyou_btn a.plant_btn:hover {
+    color: #ACEB1E;
+    border: 1px solid #ACEB1E;
+    background: transparent;
+}
+
+.thankyou_page .cart-product-detail .title h3 {
+    color: #fff;
+    font-family: "montserret";
+    font-size: 20px;
+}
+
+/* Second Column Css End Here */
+@media(max-width:1440px) {
+    section.thankyou_page .heading_top p {
+        padding: 0 5rem;
+    }
+}
+
+@media(max-width:1366px) {
+    section.thankyou_page .heading_top p {
+        padding: 0 7rem;
+    }
+
+    .thankyou_page .heading_top:before {
+        font-size: 56px;
+    }
+}
+
+@media(max-width:1280px) {
+    section.thankyou_page .heading_top p {
+        padding: 0 8rem;
+    }
+
+    .thankyou_page .heading_top:before {
+        font-size: 53px;
+        bottom: 48px;
+    }
+}
+
+@media(max-width:1100px) {
+    section.thankyou_page .heading_top p {
+        padding: 0 6rem;
+    }
+}
+
+@media(max-width:1024px) {
+    section.thankyou_page .heading_top p {
+        padding: 0 4rem;
+    }
+
+    .thankyou_page .heading_top:before {
+        font-size: 42px;
+        bottom: 56px;
+    }
+}

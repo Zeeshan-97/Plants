@@ -1,0 +1,142 @@
+.wholesale_page .heading_top:before {
+    content: "WHOLESALE";
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3A3F4A;
+    color: transparent;
+    font-size: 60px;
+    font-family: "worksans-b";
+    z-index: 0;
+    /* bottom: 48px; */
+    left: 0;
+    right: 0;
+    top: -50px;
+}
+
+.wholesale_page {
+    padding-top: 10rem;
+
+    background: #111419;
+}
+
+.wholesale_page .heading_top {
+    text-align: center;
+}
+
+.wholesale_page .contact_desc {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.wholesale_page .img_border i {
+    font-size: 40px;
+    color: #aceb1e;
+}
+
+.wholesale_page .detail_name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wholesale_page .detail_name h3 {
+    margin-bottom: 0;
+    color: #fff;
+    font-family: "montserret";
+    font-size: 25px;
+}
+
+.wholesale_page .img_border {
+    border: 1px solid #aceb1e;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.wholesale_page .detail_name span {
+    font-size: 25px;
+    color: #aceb1e;
+}
+
+.wholesale_page .detail_desc p small {
+    color: #fff;
+}
+
+section.contact_detail {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.wholesale_page .detail_desc p {
+    margin-bottom: 0;
+}
+
+.wholesale_page .wrapper h5 {
+    color: #fff;
+    font-size: 18px;
+    font-family: "montserret";
+    margin-bottom: 2rem;
+}
+
+.wholesale_page .form-start label {
+    font-weight: 100;
+    color: #fff;
+    font-size: 12px;
+}
+
+.wholesale_page .wrapper {
+    background: #1D2027;
+    padding: 4rem;
+    border-radius: 10px;
+    border: 1px solid #545a6a;
+    padding-bottom: 1rem;
+    background: linear-gradient(180deg, rgba(30, 33, 41, 1) 0%, rgba(17, 20, 25, 1) 100%);
+}
+
+.wholesale_page .form-start .form-group input {
+    background: #111419;
+    border-radius: 0;
+    padding: 21px;
+    border: 1px solid #4f5563;
+    color: #fff;
+}
+
+.wholesale_page textarea.form-control {
+    height: auto;
+    background: #111419;
+    border-radius: 0;
+    padding: 21px;
+    border: 1px solid #4f5563;
+    color: #fff;
+}
+
+.wholesale_page .button-group .plant_btn {
+    color: #000;
+    border: 1px solid #ACEB1E;
+    border-radius: 0;
+    font-size: 14px;
+    font-family: "montserret_b";
+}
+
+.wholesale_page .button-group .plant_btn:hover {
+    color: #ACEB1E;
+    border: 1px solid #ACEB1E;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.wholesale_page section.form_sec {
+    padding-bottom: 6rem;
+}
+
+.wholesale_page .heading_top p {
+    font-size: 14px;
+}
+
+.wholesale_page .heading_para p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}

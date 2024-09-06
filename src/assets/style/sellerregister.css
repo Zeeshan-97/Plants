@@ -1,0 +1,141 @@
+.sellerregister_page .heading_top:before {
+    content: "REGISTER AS A SELLER";
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3A3F4A;
+    color: transparent;
+    font-size: 50px;
+    font-family: "montserret_sb";
+    z-index: 0;
+    bottom: 6px;
+    left: 2px;
+    white-space: nowrap;
+}
+
+section.sellerregister_page .heading_top {
+    text-align: left;
+}
+
+section.sellerregister_page {
+    background: #111419;
+    padding: 7rem 0;
+    /* height: 100vh; */
+    padding-top: 7rem;
+}
+
+.sellerregister_page span.notamember {
+    color: #fff;
+    font-size: 13px;
+    font-family: "montserret_thin";
+}
+
+.sellerregister_page span.register {
+    color: #aceb1e;
+    font-family: "montserret";
+    font-size: 14px;
+}
+
+.sellerregister_page p.welcome_para {
+    color: #fff;
+    font-size: 26px;
+    font-family: "worksans-l";
+    margin-bottom: 0;
+    margin-top: 3rem;
+    line-height: 1.2;
+}
+
+.sellerregister_page .rememberDv .form-group input#remember {
+    width: auto;
+}
+
+.sellerregister_page .rememberDv .form-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+section.sellerregister_page .plants_btn {
+    background-color: #ACEB1E;
+    border-radius: 0;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #000;
+    font-family: "montserret";
+    font-size: 14px;
+    font-weight: 500;
+    padding: 14px 40px;
+    text-decoration: none;
+    text-decoration: none !important;
+    transition: .6s;
+    width: 100%;
+}
+
+section.sellerregister_page .plants_btn:hover {
+    color: #ACEB1E;
+    border: 1px solid #ACEB1E;
+    background: transparent;
+}
+
+.sellerregister_page .rememberDv .form-group label {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.sellerregister_page .rememberDv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.sellerregister_page .rememberDv .lnk a {
+    color: #aceb1e;
+    font-size: 13px;
+}
+
+.sellerregister_page .form-start .form-group input {
+    background: transparent;
+    border-radius: 0;
+    padding: 21px;
+    border: 1px solid;
+}
+
+section.sellerregister_page .form-start {
+    margin-top: 3rem;
+}
+
+.sellerregister_page span.plantshead {
+    color: #aceb1e;
+    font-family: "montserret";
+}
+
+.sellerregister_page p.createacc {
+    font-size: 13px;
+}
+
+.sellerregister_page p.createacc a {
+    font-size: 13px;
+    color: #aceb1e;
+}
+
+.sellerregister_page .login_img img {
+    transform: scale(1.2);
+    margin-left: 8rem;
+}
+
+section.sellerregister_page .heading_top h3 {
+    color: #aceb1e;
+    position: relative;
+}
+
+@media(max-width:1100px) {
+    section.sellerregister_page .heading_top h3 {
+        font-size: 30px;
+        color: #aceb1e;
+    }
+
+    .sellerregister_page .heading_top:before {
+        font-size: 45px;
+        bottom: 12px;
+    }
+}

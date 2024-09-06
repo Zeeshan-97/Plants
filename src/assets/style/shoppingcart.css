@@ -1,0 +1,282 @@
+.heading_top:before {
+    content: "SHOPPING CART";
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3A3F4A;
+    color: transparent;
+    font-size: 60px;
+    font-family: "worksans-b";
+    z-index: 0;
+    bottom: 53px;
+    left: 0;
+    right: 0;
+}
+
+section.shoppingcart_page .heading_top {
+    text-align: center;
+}
+
+section.shoppingcart_page .heading_top p {
+    font-size: 13px;
+    margin-top: 1rem;
+}
+
+.heading_top h3.green_head {
+    color: #aceb1e;
+}
+
+section.shoppingcart_page {
+    padding-top: 7rem;
+    background: #111419;
+}
+
+section.mainbody_sec .shoppingright_sec h5 {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+section.mainbody_sec .shoppingright_sec p {
+    font-size: 14px;
+}
+
+section.mainbody_sec .detail_box p {
+    font-size: 24px;
+    color: #ACEB1E;
+    font-family: "montserret_r";
+}
+
+section.mainbody_sec .shoppingright_sec .total_price p {
+    color: #fff;
+    font-size: 20px;
+}
+
+section.mainbody_sec .detail_box {
+    display: flex;
+    gap: 50px;
+    margin-top: 2.5rem;
+}
+
+section.mainbody_sec .detail_box .quantity_dv i {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+section.mainbody_sec .detail_box .quantity_dv span.count_value {
+    font-size: 13px;
+    padding: 7px 25px;
+    /* border-left: 1px solid #fff; */
+    /* border-right: 1px solid #fff; */
+    color: #98A1BC;
+}
+
+section.mainbody_sec .quantity_dv button.addCount {
+    border-right: 1px solid #98A1BC;
+}
+
+section.mainbody_sec .quantity_dv button.removeCount {
+    border-left: 1px solid #98A1BC;
+}
+
+section.mainbody_sec .quantity_dv button {
+    border: 0;
+    background: transparent;
+    height: 34px;
+    width: 34px;
+    color: #6b6b6b;
+    transition: 0.6s;
+}
+
+section.mainbody_sec .quantity_dv {
+    border: 1px solid #a4a4a4;
+    height: fit-content;
+}
+
+section.mainbody_sec .shopping_sec {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #545a6a;
+    border-radius: 2px;
+    padding: 30px 20px 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    background-color: #111419;
+}
+
+section.mainbody_sec .closebtn {
+    background: #ACEB1E;
+    width: fit-content;
+    padding: 2px 8px;
+    position: absolute;
+    left: -20px;
+    top: -30px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+section.mainbody_sec .shoppingleft_sec {
+    position: relative;
+}
+
+section.mainbody_sec .borderr-r {
+    border-right: 1px solid #545a6a;
+    padding-right: 2rem;
+}
+
+.order_summary_right {
+    color: #fff;
+    font-size: 20px;
+}
+
+.order_summary_right h5 {
+    display: inline;
+    font-family: "montserret_b";
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.order_summary_right h4 {
+    margin-bottom: 2rem;
+    font-family: "montserret_b";
+    font-size: 18px;
+}
+
+.order_summary_right p {
+    color: #fff;
+    font-size: 13px;
+    font-family: "montserret_thini";
+}
+
+.order_summary_btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.promocode_dv {
+    margin-top: 2rem;
+    background-color: #111419;
+}
+
+.promocode_dv h5 {
+    color: #fff;
+    font-family: "montserret_b";
+    font-size: 18px;
+}
+
+.promocode_dv p {
+    color: #fff;
+    font-size: 12px;
+    font-family: "montserret_thin";
+}
+
+section.mainbody_sec button.plant_btn {
+    color: #000;
+    font-family: 'montserret_b';
+    font-size: 14px;
+    border: 1px solid #ACEB1E;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+section.mainbody_sec button.plant_btn:hover {
+    color: #ACEB1E;
+    border: 1px solid #ACEB1E;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+section.mainbody_sec .promocode_dv button.plant_btn {
+    color: #000;
+    padding: 1rem;
+    padding: 1rem 20px;
+    font-size: 14px;
+    border: 1px solid #ACEB1E;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+section.mainbody_sec .promocode_dv button.plant_btn:hover {
+    color: #ACEB1E;
+    border: 1px solid #ACEB1E;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.promocode_dv .form-control {
+    display: inline;
+    width: 160px;
+    height: 50px;
+    background: #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.promocode_dv button.plant_btn {
+    display: inline;
+}
+
+.promocode_dv .form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.promocode_dv {
+    margin-top: 2rem;
+    border: 1px solid #545a6a;
+    padding: 30px 20px;
+    border-radius: 3px;
+}
+
+.mainbody_section {
+    padding: 6rem 2rem;
+    border: 1px solid #545a6a;
+    border-radius: 6px;
+    background: #1D2028;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background: linear-gradient(180deg, rgba(30, 33, 41, 1) 0%, rgba(17, 20, 25, 1) 100%);
+}
+
+section.mainbody_sec {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.order_summary_btn a.plant_btn {
+    color: #000;
+    border: 1px solid #ACEB1E;
+    border-radius: 0;
+    font-family: 'montserret_b';
+    font-size: 14px;
+}
+
+.order_summary_btn a.plant_btn:hover {
+    color: #ACEB1E;
+    border: 1px solid #ACEB1E;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+}

@@ -1,0 +1,33 @@
+.marketplace_page {
+    padding-top: 8rem;
+    background-color: #111419;
+    background-image: url(../images/bannerright.png) ;
+    background-position-x: 205px;
+    background-position-y: 120px;
+    background-repeat:no-repeat;
+}
+
+.marketplace_page .heading_top:before {
+    content: "MARKETPLACE";
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3A3F4A;
+    color: transparent;
+    font-size: 60px;
+    font-family: "worksans-b";
+    z-index: 0;
+    /* bottom: 48px; */
+    left: 0;
+    right: 0;
+    top: -50px;
+}
+
+.marketplace_page .heading_top {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.marketplace_page .heading_top p {
+    font-size: 13px;
+    margin-top: 1rem;
+}

@@ -1,0 +1,99 @@
+section.testimonial_sec .heading_top:before {
+    content: "TESTIMONIALS";
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3A3F4A;
+    color: transparent;
+    font-size: 60px;
+    font-family: "worksans-b";
+    z-index: 0;
+    bottom: 36px;
+    left: 0;
+    right: 0;
+}
+
+section.testimonial_sec .heading_top {
+    position: relative;
+    text-align: center;
+}
+
+section.testimonial_sec .heading_top p {
+    font-size: 14px;
+    padding: 0 14rem;
+}
+
+section.testimonial_sec {
+    background: linear-gradient(180deg, rgba(17, 20, 25, 1) 0%, rgba(18, 21, 26, 1) 100%);
+    padding-top: 8rem;
+}
+.testimonial_content p {
+    font-size: 14px;
+    z-index: 1;
+    /* background-image: url(../images/comas.png) ; */
+    background-repeat:no-repeat ;
+    position: relative;
+    padding-left: 4rem;
+    color: #C2C8D9;
+    background: transparent;
+}
+.testimonial_content p:before {
+    /* content:url(../images/comas.png); */
+    
+    background-repeat:no-repeat ;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.testi{
+/* background: url(../images/comas.png); */
+    /* background-color: #111419cf; */
+    /* padding: 6rem 2rem 5rem 5rem; */
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-x: 35px;
+    background-position-y: 70px;
+    position: relative;
+    /* filter: brightness(0.5); */
+    opacity: 0.8;
+}
+.testimonial_content{
+    
+    
+    position: relative;
+    padding: 3rem;
+}
+.testimonial_content:before {
+    content: "";
+    width: 4px;
+    /* height: 160px; */
+    background: #ACEB1E;
+    position: absolute;
+    left: -2px;
+    top: 0;
+    bottom: 0;
+}
+.testi h6 {
+    color: #fff;
+    padding-left:4rem;
+    background: transparent
+}
+.testimonial_comas {
+    position: absolute;
+    left: 22px;
+    top: -21px;
+    filter: brightness(.5);
+    -webkit-filter: brightness(.5);
+}
+.testimonial_content {
+    position: relative;
+    padding: 3rem;
+    border: 1px solid #98A1BC;
+    background: linear-gradient(90deg, rgba(30,33,41,1) 0%, rgba(17,20,25,1) 100%);
+    margin-top: 2rem;
+}
+.testimonial_comas img {
+    width: 60px;
+}
+section.testimonial_section {
+    padding-bottom: 4rem;
+}

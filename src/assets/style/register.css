@@ -1,0 +1,123 @@
+.register_page .heading_top:before {
+    content: "REGISTER";
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3A3F4A;
+    color: transparent;
+    font-size: 60px;
+    font-family: "montserret_sb";
+    z-index: 0;
+    bottom: 4px;
+    left: 2px;
+}
+
+section.register_page .heading_top {
+    text-align: left;
+}
+
+section.register_page {
+    background: #111419;
+    padding: 8rem 0;
+    /* height: 100vh; */
+    padding-top: 7rem;
+}
+
+span.notamember {
+    color: #fff;
+    font-size: 13px;
+    font-family: "montserret_thin";
+}
+
+span.register {
+    color: #aceb1e;
+    font-family: "montserret";
+    font-size: 14px;
+}
+
+p.welcome_para {
+    color: #fff;
+    font-size: 26px;
+    font-family: "worksans-l";
+    margin-bottom: 0;
+    margin-top: 2.5rem;
+    line-height: 1.2;
+}
+
+.rememberDv .form-group input#remember {
+    width: auto;
+}
+
+.rememberDv .form-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+section.register_page .plants_btn {
+    background-color: #ACEB1E;
+    border-radius: 0;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #000;
+    font-family: 'montserret_b';
+    font-size: 14px;
+    font-weight: 500;
+    padding: 14px 40px;
+    text-decoration: none;
+    text-decoration: none !important;
+    transition: .6s;
+    width: 100%;
+}
+
+section.register_page .plants_btn:hover {
+    color: #ACEB1E;
+    border: 1px solid #ACEB1E;
+    background: transparent;
+}
+
+.rememberDv .form-group label {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.rememberDv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.rememberDv .lnk a {
+    color: #aceb1e;
+    font-size: 13px;
+}
+
+.form-start .form-group input {
+    background: transparent;
+    border-radius: 0;
+    padding: 21px;
+    border: 1px solid;
+}
+
+section.register_page .form-start {
+    margin-top: 1.5rem;
+}
+
+span.plantshead {
+    color: #aceb1e;
+    font-family: "montserret";
+}
+
+p.createacc {
+    font-size: 13px;
+}
+
+p.createacc a {
+    font-size: 13px;
+    color: #aceb1e;
+}
+
+.login_img img {
+    transform: scale(1.2);
+    margin-left: 4rem;
+}

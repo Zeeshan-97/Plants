@@ -1,0 +1,185 @@
+section.faq_page .heading_top:before {
+    content: "FAQS";
+    position: absolute;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3A3F4A;
+    color: transparent;
+    font-size: 60px;
+    font-family: "worksans-b";
+    z-index: 0;
+    bottom: 36px;
+    left: 0;
+    right: 0;
+}
+
+section.faq_page .heading_top {
+    position: relative;
+    text-align: center;
+}
+
+section.faq_page .heading_top p {
+    font-size: 14px;
+    padding: 0 14rem;
+}
+
+section.faq_page {
+    background: linear-gradient(180deg, rgba(17, 20, 25, 1) 0%, rgba(18, 21, 26, 1) 100%);
+    padding-top: 8rem;
+    /* background-image: url(../images/bannerright.png); */
+    /* background-position-x: 205px; */
+    /* background-position-y: 45px; */
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+section.h_bar {
+    position: absolute;
+    top: 129px;
+    left: 15rem;
+    right: 0;
+}
+
+section.faq_page .card-header {
+    /* background: linear-gradient(180deg, rgba(30, 33, 41, 1) 0%, rgba(17, 20, 25, 1) 100%);
+    border: 1px solid #98A1BC;
+    margin-bottom: 12px;
+    position: relative;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0; */
+    border-bottom: 0;
+}
+
+section.faq_page .card {
+    background-color: transparent;
+    background: linear-gradient(180deg, rgba(30, 33, 41, 1) 0%, rgba(17, 20, 25, 1) 100%);
+    border: 1px solid #98A1BC;
+    margin-bottom: 12px;
+    position: relative;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+button.btn.btn-link {
+    font-family: "montserret";
+    color: #fff;
+    width: 100%;
+    text-align: left;
+}
+
+.card-body {
+    color: #fff;
+    font-size: 14px;
+}
+
+section.faq_page .card-header:before {
+    content: "";
+    width: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #aceb1e;
+    bottom: 0;
+}
+
+section.faq_sec {
+    padding-bottom: 13rem;
+
+}
+
+section.faq_page .card-header button.btn.btn-link {
+    position: relative;
+}
+
+section.faq_page .card-header button.btn.btn-link.collapsed::after {
+    content: "+";
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-family: "montserret_m";
+    position: absolute;
+    margin-top: 5px;
+}
+
+section.faq_page .card-header button.btn.btn-link::after {
+    content: "-";
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-family: "montserret_m";
+    position: absolute;
+    margin-top: 5px;
+}
+
+div#accordion {
+    margin-top: 2rem;
+}
+
+section.faq_page .universal_top {
+    /* background: url(../images/bannerright.png) no-repeat; */
+}
+
+@media(max-width:1440px) {
+    section.faq_page .heading_top p {
+        padding: 0 5rem;
+    }
+
+    section.h_bar {
+        top: 129px;
+        left: 14rem;
+        right: 0;
+    }
+}
+
+@media(max-width:1366px) {
+    section.faq_page .heading_top p {
+        padding: 0 7rem;
+    }
+
+    section.h_bar {
+        top: 129px;
+        left: 12rem;
+        right: 0;
+    }
+}
+
+@media(max-width:1280px) {
+    section.faq_page .heading_top p {
+        padding: 0 8rem;
+    }
+
+    section.h_bar {
+        top: 129px;
+        left: 10rem;
+        right: 0;
+    }
+}
+
+@media(max-width:1100px) {
+    section.h_bar {
+        top: 129px;
+        left: 9rem;
+        right: 0;
+    }
+
+    section.faq_page .heading_top p {
+        padding: 0 6rem;
+    }
+}
+
+@media(max-width:1024px) {
+    section.faq_page .heading_top p {
+        padding: 0 4rem;
+    }
+
+    section.h_bar {
+        top: 129px;
+        left: 7rem;
+        right: 0;
+    }
+}
